@@ -1,0 +1,33 @@
+canonical_identifier: bkk:krp/KR2p0102/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR2p0102/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 甲本服傳釋文
+  identifiers:
+    krp: KR2p0102
+  tags:
+    kr-categories: KR2p
+  source:
+    repository: tls-texts
+    path: data/tls/KR2p0102.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR2p0102_001-CHANT.yaml, hash: 'sha256:508e0ff21a0bad4ee98c306445b70872cbdf18fd6067afc0a5abd126e4cde235'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2p0102_001-CHANT.markers.yaml, hash: 'sha256:6fb8ddfff579c0a28c109b6c88416c500f4380561e1262931d6b5f7d13b15a69'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2p0102_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 3273
+  label: 武威漢簡甲本服傳釋文
+  type: section
+  level: 1
+hash: sha256:7ebac0a100141e3ef93fc31ef0ad5f33adbefd14f689cc19550b41901060b7cc

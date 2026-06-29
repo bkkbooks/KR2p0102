@@ -1,0 +1,36 @@
+canonical_identifier: bkk:krp/KR2p0102/v1
+canonical_location: https://kanripo.org/bkk/KR2p0102/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 甲本服傳釋文
+  identifiers:
+    krp: KR2p0102
+  tags:
+    kr-categories: KR2p
+  source:
+    repository: tls-texts
+    path: data/tls/KR2p0102.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR2p0102_001.yaml, hash: 'sha256:d270c31e9d9c425adbc1efc804640c15315ab723f01b31f97c4c698d2661825e'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2p0102_001.markers.yaml, hash: 'sha256:f25547f1111e79588d531840cd53e77e7880ccaa0d05f79c5f19ba5e57d59611'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2p0102_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 3273
+  label: 武威漢簡甲本服傳釋文
+  type: section
+  level: 1
+hash: sha256:71a8cbe30bc0a38c5d98398e7860a8dc9c46a49a95acd14be946ecb1aad280c5
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
