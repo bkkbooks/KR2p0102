@@ -16,9 +16,9 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR2p0102_001.yaml, hash: 'sha256:d270c31e9d9c425adbc1efc804640c15315ab723f01b31f97c4c698d2661825e'}
+  - {seq: 1, filename: KR2p0102_001.yaml, hash: 'sha256:508e0ff21a0bad4ee98c306445b70872cbdf18fd6067afc0a5abd126e4cde235'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR2p0102_001.markers.yaml, hash: 'sha256:f25547f1111e79588d531840cd53e77e7880ccaa0d05f79c5f19ba5e57d59611'}
+  - {seq: 1, role: markers, filename: assets/KR2p0102_001.markers.yaml, hash: 'sha256:709234f9cda75229b4174273a7bd5a98443cf40de24ef49a1b6d0abb18f96558'}
 table_of_contents:
 - ref:
     seq: 1
@@ -30,7 +30,4 @@ table_of_contents:
   label: 武威漢簡甲本服傳釋文
   type: section
   level: 1
-hash: sha256:71a8cbe30bc0a38c5d98398e7860a8dc9c46a49a95acd14be946ecb1aad280c5
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:151eaa506e3f2c5f1a0f95dd6343f64de07a9094753c9417c7c84181c56a2d1e
